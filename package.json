@@ -9,8 +9,10 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "jshint": "^2.6.0",
     "mocha": "^2.1.0",
     "mongoose": "^3.8.23",
+    "precommit-hook": "^1.0.7",
     "sinon": "^1.12.2"
   },
   "homepage": "http://github.com/scttnlsn/mongoose-acl",
