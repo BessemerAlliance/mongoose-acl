@@ -134,4 +134,10 @@ describe('Object', function() {
             assert.ok(model.isModified('_acl'));
         });
     });
+
+    describe('when getting ACL path', function() {
+        it('returns the correct path', function() {
+            assert.deepEqual(Test.getAclPath(), '_acl');
+        });
+    });
 });
